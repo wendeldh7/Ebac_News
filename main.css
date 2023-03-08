@@ -121,6 +121,7 @@ aside .noticia {
 }
 
 button {
+    font-size: bold;
     background-color: #551a8b;
     color: #fff;
     cursor: pointer;
