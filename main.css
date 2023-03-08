@@ -170,6 +170,14 @@ button {
         position: relative;
         border: none;
     }
+
+    .menu {
+        display: none;
+    }
+    .menu, .menu > li {
+        width: 100%;
+        display: block;
+    }
     
     .menu > li {
         clear: both;
@@ -188,4 +196,15 @@ button {
         text-decoration: underline;
     }
     
+    .botao-menu {
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .botao-menu button {
+        padding: 8px;
+        cursor: pointer;
+    }
 }
