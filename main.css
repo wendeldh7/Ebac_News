@@ -16,3 +16,20 @@ header .container {
     justify-content: space-between;
     align-items: center;
 }
+
+header {
+    padding: 16px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.submenu {
+    display: none;
+}
+
+.menu li {
+    float: left;
+}
+
+.cleart {
+    clear: both;
+}
